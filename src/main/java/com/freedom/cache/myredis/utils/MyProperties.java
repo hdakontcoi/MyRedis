@@ -37,6 +37,7 @@ public class MyProperties {
 		// netty
 		int netty_port = Integer.parseInt(props.getProperty(MyConstants.NETTY_PORT, "10000"));
 		int netty_boss = Integer.parseInt(props.getProperty(MyConstants.NETTY_BOSS, "1"));
+		netty_boss = 1;
 		int netty_worker = Integer.parseInt(props.getProperty(MyConstants.NETTY_WORKER, "1").trim());// the
 																										// same
 																										// as
