@@ -41,6 +41,7 @@ public class MyProperties {
 																										// same
 																										// as
 																										// redis
+		netty_worker = 1;
 		// netty_worker = Runtime.getRuntime().availableProcessors() *
 		// netty_worker;// 跟cpu核数一致
 		// zk
